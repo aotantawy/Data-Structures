@@ -21,5 +21,6 @@
 
 ### Abstract data types
 
-It provides/defines an interface for the behavior 
+- It provides/defines an interface for the behavior 
+
 [Stack overflow question](https://stackoverflow.com/questions/10267084/what-is-adt-abstract-data-type)
