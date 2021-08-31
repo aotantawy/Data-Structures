@@ -1,61 +1,56 @@
-# Data structures tutorial 
+<img src="https://miro.medium.com/max/1400/1*sMryEXZVPKFjGNcfSzE8Mw.jpeg" title="data structures and algorithms src:medium.com" alt="data structures and algorithms src:medium.com" width="100%" height="500px" />
 
-## Table of contents
-- [Day 1: Introduction](#day-1-introduction)
-- [Day 2: Arrays](#day-2-arrays)
+# Table of Contents
 
-<img src="https://kshitizsaini113.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1603947146986%2FJDRm1-Mz6.png%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75" width="100%" height="500px" title="Data structures, src: hashnode.dev" alt="data structures banner">
+- [Introduction](#introduction)
+	- [What is data structure?](#what-is-data-structure)
+	- [What is an algorithm?](#what-is-an-algorithm)
+	- [Why data structures and algorithms are so important?](#why-data-structures-and-algorithms-are-so-important)
+- [Complexity analysis](#complexity-analysis)
+	- [What is complexity?](#what-is-complexity)
+	- [Why complexity is needed](#why-complexity-is-needed)
+	- [Difference between Omega, Theta, and Big-O notations](#difference-between-omega-theta-and-big-o-notations)
+	- [Growth of complexity functions](#growth-of-complexity-functions)
+ 
 
-
-## Day 1: Introduction 
+## Introduction
 
 ### What is data structure?
 
-- it's a container for managing and storing data in such a way that enables querying and manipulating this data efficiently.
-
-### Why are data structures so important?
-
-- choosing the right data structure will:
-    1. make your code more concise and clean.
-    2. reduce usage of the computational resources.
-    3. affect time and space complexity.
-
-### Abstract data types vs Data structures 
-
-- abstract data types define interface for the behavior while data structures define -several- implementation(s) for this interface.
-
-   [Stack overflow question](https://stackoverflow.com/questions/10267084/what-is-adt-abstract-data-type)
-
----
-
-## Day 2: Arrays 
-
-### What are arrays?
-
-- it's a container that stores a set of data in a contiguous location inside the memory.
-
-### How are arrays stored in the memory? 
-
-| Index 0 | Index 1 | Index 2 | ... | Index n|
-| :---:   |:---:    |:---:    |:---:|:---:   | 
-| value 0| value 1  | value 2 | ... | value n|
+- It's a container for managing and storing data that has a defined internal structure.
 
 
-### Static vs Dynamic arrays 
+### What is an Algorithm?
 
-| Point | Static Array | Dynamic Array|
-| :---:     |  :---:       | :---:    |
-| Length   | Fixed         | Variable |
-| Creation | @Compilation time| @Runtime |
-| Memory location | Stack | Heap     |  
+- It's a well-defined, finite step-by-step process that transforms some input into some output. 
+
+![algorithm src:geeksforgeeks.com](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191016135223/What-is-Algorithm_-1024x631.jpg "algorithm src:geeksforgeeks.com")
 
 
-### Complexity analysis 
+### Why data structures and algorithms are so important?
 
-| Operation | Static Array | Dynamic Array|
-| :---:     |  :---:       | :---:        |
-| Access    | O(1)         |  O(1)        |
-| Search    | O(n)         | O(n)         |
-| Insertion | N/A          | O(n)         |
-| Appending | N/A          | O(1)         |
-| Deletion  | N/A          | O(n)         | 
+- Being good at data structures and algorithms will enable you to write efficient programs which use computations resources wisely and have the most optimal time complexity.
+
+
+## Complexity analysis
+
+### What is complexity?
+
+- It's the study of the algorithm behavior when the input size tends to infinity.
+
+### Why complexity is needed?
+
+- The main reason for needing complexity is to compare different algorithms and find which one is better.
+
+### Difference between Omega, Theta, and Big-O notations
+
+| Point | Omega | Theta | Big-O |
+| :---: | :---: | :---: | :---: |
+|notation | Ω   | Θ     |   O   |
+| calculation | best case | average case | worst case|
+| graph representation | ![Omega graph src:geeksforgeeks.com](https://media.geeksforgeeks.org/wp-content/uploads/AlgoAnalysis-3.png "Omega graph src:geeksforgeeks.com") | ![Theta graph src:geeksforgeeks.com](https://media.geeksforgeeks.org/wp-content/uploads/AlgoAnalysis-1.png "Theta graph src:geeksforgeeks.com") | ![Big-O graph src:geeksforgeeks.com](https://media.geeksforgeeks.org/wp-content/uploads/AlgoAnalysis-2.png "Big-O graph src:geeksforgeeks.com")|
+
+
+### Growth of complexity functions
+
+![Growth of complexity functions src:algorithmsandme.com](https://secureservercdn.net/160.153.137.40/662.aa9.myftpupload.com/wp-content/uploads/2019/11/Time-Complexity.png "Growth of complexity functions src:algorithmsandme.com")
