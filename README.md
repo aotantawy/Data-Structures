@@ -54,3 +54,25 @@
 ### Growth of complexity functions
 
 ![Growth of complexity functions src:algorithmsandme.com](https://secureservercdn.net/160.153.137.40/662.aa9.myftpupload.com/wp-content/uploads/2019/11/Time-Complexity.png "Growth of complexity functions src:algorithmsandme.com")
+
+## Arrays
+
+![Arrays in memory](https://media.geeksforgeeks.org/wp-content/uploads/Arrays-1.png "Arrays in memory src:geeksforgeeks.com")
+- ___Definition:___ It's a data structure that stores a collection of elements in contiguous memory locations.
+- ___Complexity:___
+
+	|Operations | Complexity|
+	| ---      | ---       |
+	| Access   | O(1)      |
+	| -Linear- Search   | O(n) |
+	| Insert   |   O(1), if array is not full |
+	| Append   | O(n), if array is not full|
+	| Delete   | O(n) | 
+
+	> where n is the number of elements.
+
+- ___Notes:___
+	1. If you have a large set of elements you may find a problem in storing them in contiguous locations.
+	2. If you don't know how many elements will be stored so you may end with:
+		1. allocating too much memory that will never be used (inefficient).
+		1. allocating few memory locations (solution: use dynamic arrays).
