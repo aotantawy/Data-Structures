@@ -11,6 +11,8 @@
 	- [Why complexity is needed](#why-complexity-is-needed)
 	- [Difference between Omega, Theta, and Big-O notations](#difference-between-omega-theta-and-big-o-notations)
 	- [Growth of complexity functions](#growth-of-complexity-functions)
+- [Data Structures](#data-structures)
+	- [Arrays](#arrays)
  
 
 ## Introduction
@@ -55,6 +57,8 @@
 
 ![Growth of complexity functions src:algorithmsandme.com](https://secureservercdn.net/160.153.137.40/662.aa9.myftpupload.com/wp-content/uploads/2019/11/Time-Complexity.png "Growth of complexity functions src:algorithmsandme.com")
 
+# Data Structures
+
 ## Arrays
 
 ![Arrays in memory](https://media.geeksforgeeks.org/wp-content/uploads/Arrays-1.png "Arrays in memory src:geeksforgeeks.com")
@@ -76,3 +80,10 @@
 	2. If you don't know how many elements will be stored so you may end with:
 		1. allocating too much memory that will never be used (inefficient).
 		1. allocating few memory locations (solution: use dynamic arrays).
+	<br/><br/>
+
+	| Problem | Website | Solution| 
+	| ---     |  ---    | ---     |
+	|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones)|LeetCode|[Solution](/solutions/Max_consecutive_ones_485.java)|
+	|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits)|LeetCode|[Solution](/solutions/Find_numbers_with_even_number_of_digits_1259.java)|
+	|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)|LeetCode|[Solution](/solutions/Squared_of_a_sorted_array_977.java)|
