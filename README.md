@@ -18,7 +18,7 @@
 |		|		|--- Definition
 |		|		|--- Complexity 
 |		|		|--- Notes 
-|       |		|--- Useful Links
+|       	|		|--- Useful Links
 |		|
 |		|--- Problems
 |
@@ -30,7 +30,7 @@
 |		|		|--- Definition
 |		|		|--- Complexity 
 |		|		|--- Notes 
-|       |		|--- Useful Links
+|       	|		|--- Useful Links
 |		|
 |		|--- Problems
 |
