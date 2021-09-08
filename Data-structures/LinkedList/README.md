@@ -28,3 +28,5 @@
 	| ---     |  ---    | ---     |
 	|[Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/)|LeetCode|[Solution](./Problems/Merge_two_sorted_lists.java)|
 	|[Rotate List](https://leetcode.com/problems/rotate-list/)|LeetCode|[Solution](./Problems/Rotate_list.java)|
+	|[Remove duplicates from sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|LeetCode|[Solution](./Problems/Remove_duplicates_from_sorted_list.java)|
+	|[Remove duplicates from sorted list II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|LeetCode|[Solution](./Problems/Remove_duplicates_from_sorted_list_2.java)|
