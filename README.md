@@ -4,6 +4,7 @@
 
 - [Project Structure](#project-structure)
 - [Topics](#topics)
+- [References](#references)
 
 
 ## Project Structure
@@ -42,3 +43,10 @@
 	- [Introduction](/Data-structures/Introduction/)
 	- [Arrays](/Data-structures/Arrays/)
 	- [LinkedList](/Data-structures/LinkedList/)
+
+
+## References
+
+- [Data structures Javatpoint](https://www.javatpoint.com/data-structure-tutorial).
+- [Data structures FreeCodeCamp](https://www.youtube.com/watch?v=RBSGKlAvoiM&t=2067s).
+- [Data structures Mycodeschool C/C++](https://www.youtube.com/playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P).
