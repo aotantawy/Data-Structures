@@ -48,6 +48,7 @@
 	- [Introduction](/Data-structures/Introduction/)
 	- [Arrays](/Data-structures/Arrays/)
 	- [LinkedList](/Data-structures/LinkedList/)
+	- [Hash Table](/Data-structures/Hash-tables/)
 
 
 ## References
