@@ -30,5 +30,6 @@
 
 	| Problem | Website | Solution |
 	| 	---   |	--- 	| ---	   |
+	| [Hash Tables: Ransom Note](https://www.hackerrank.com/challenges/ctci-ransom-note/problem?h_r=internal-search)| HackerRank | [Solution](./Problems/Hash_tables_ransom_note.java)
 	| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|LeetCode | [Solution](./Problems/Longest_substring_without_repeating_characters.java)|
     
